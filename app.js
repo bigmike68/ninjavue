@@ -1,13 +1,13 @@
 new Vue({
   el: '#vue-app',
   data: {
-    name: 'Big Mike',
+    name: 'Glenny',
     job: 'Web Developer',
     team: 'Golden State Warriors'
   },
   methods: {
-    greet: function(person){
-      return 'Hola' + person;
+    greet: function(time){
+      return 'Good' + time + ' ' + this.name + '!';
     }
   }
 });
